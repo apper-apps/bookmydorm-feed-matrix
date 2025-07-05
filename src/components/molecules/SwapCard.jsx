@@ -13,7 +13,7 @@ const SwapCard = ({
   className = '',
   ...props 
 }) => {
-  const {
+const {
     Id,
     user,
     currentRoom,
@@ -21,11 +21,21 @@ const SwapCard = ({
     status,
     createdAt,
     description,
-    urgency
+    urgency,
+    requesterId,
+    requesterName,
+    requesterEmail
   } = swapRequest
   
-  const isOwnRequest = currentUser?.Id === user?.Id
+  // Create user object from available data with null safety
+  const safeUser = user || {
+    Id: requesterId,
+    name: requesterName,
+    email: requesterEmail,
+    avatar: null
+  }
   
+  const isOwnRequest = currentUser?.Id === safeUser?.Id
   const statusConfig = {
     active: { variant: 'success', label: 'Active' },
     pending: { variant: 'warning', label: 'Pending' },
@@ -49,15 +59,15 @@ const SwapCard = ({
     >
       <Card hover className="group">
         <div className="flex items-start gap-4 mb-4">
-          <Avatar 
-            src={user.avatar}
-            name={user.name}
+<Avatar 
+            src={safeUser?.avatar}
+            name={safeUser?.name || 'Unknown User'}
             size="md"
           />
           <div className="flex-1">
             <div className="flex items-center justify-between mb-2">
               <div>
-                <h4 className="font-medium text-gray-900">{user.name}</h4>
+                <h4 className="font-medium text-gray-900">{safeUser?.name || 'Unknown User'}</h4>
                 <div className="flex items-center gap-2 mt-1">
                   <Badge {...statusConfig[status]} size="sm" />
                   <Badge {...urgencyConfig[urgency]} size="sm" />
