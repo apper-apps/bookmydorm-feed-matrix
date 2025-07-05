@@ -100,9 +100,10 @@ const [dashboardData, setDashboardData] = useState(null)
       >
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">
+<h2 className="text-2xl font-bold text-gray-900 mb-2">
               {greeting}, {user?.name || 'User'}! 👋
-<p className="text-gray-600">Welcome back to your dashboard</p>
+            </h2>
+            <p className="text-gray-600">Welcome back to your dashboard</p>
           </div>
           <div className="flex items-center space-x-4">
             <Avatar 
@@ -198,11 +199,9 @@ const [dashboardData, setDashboardData] = useState(null)
                 <p className="text-xs text-gray-500 mt-1">{review?.date || 'N/A'}</p>
               </div>
             </div>
-          )) || <p className="text-gray-500 text-center py-4">No recent reviews</p>}
+)) || <p className="text-gray-500 text-center py-4">No recent reviews</p>}
         </div>
       </motion.div>
-      </motion.div>
-
       {/* Active Swaps */}
       <motion.div variants={itemVariants} className="bg-white rounded-xl p-6 border border-gray-200">
         <div className="flex items-center justify-between mb-4">
