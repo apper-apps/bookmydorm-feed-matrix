@@ -12,16 +12,30 @@ const RoommateCard = ({
   className = '',
   ...props 
 }) => {
+  // Early return if roommate is null/undefined
+  if (!roommate) {
+    return (
+      <Card className={`p-6 ${className}`} {...props}>
+        <div className="flex items-center justify-center h-32">
+          <div className="text-center">
+            <ApperIcon name="User" className="w-12 h-12 text-gray-400 mx-auto mb-2" />
+            <p className="text-gray-500 text-sm">Unknown User</p>
+          </div>
+        </div>
+      </Card>
+    )
+  }
+
   const {
     Id,
-    name,
+    name = 'Unknown User',
     avatar,
-    university,
-    course,
-    year,
-    personalityProfile,
-    preferences,
-    bio
+    university = 'Unknown University',
+    course = 'Unknown Course',
+    year = 'Unknown Year',
+    personalityProfile = {},
+    preferences = {},
+    bio = 'No bio available'
   } = roommate
   
   const getCompatibilityColor = (score) => {
