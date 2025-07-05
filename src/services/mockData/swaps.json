@@ -1,0 +1,169 @@
+[
+  {
+    "id": "swap-001",
+    "requesterId": "user-101",
+    "requesterName": "Sarah Johnson",
+    "requesterEmail": "sarah.johnson@university.edu",
+    "requesterPhone": "+1-555-0123",
+    "currentRoom": {
+      "id": "room-205",
+      "number": "205",
+      "hostelId": "hostel-001",
+      "hostelName": "Sunrise Hostel",
+      "floor": 2,
+      "type": "Double",
+      "amenities": ["WiFi", "Study Desk", "Shared Bathroom"]
+    },
+    "desiredRoom": {
+      "id": "room-315",
+      "number": "315",
+      "hostelId": "hostel-002",
+      "hostelName": "Green Valley Hostel",
+      "floor": 3,
+      "type": "Single",
+      "amenities": ["WiFi", "Private Bathroom", "Balcony"]
+    },
+    "reason": "Need single room for better study environment",
+    "status": "pending",
+    "priority": "high",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z",
+    "targetDate": "2024-02-01T00:00:00Z",
+    "isFlexible": true,
+    "additionalNotes": "Willing to pay difference in rent if needed"
+  },
+  {
+    "id": "swap-002",
+    "requesterId": "user-102",
+    "requesterName": "Michael Chen",
+    "requesterEmail": "michael.chen@university.edu",
+    "requesterPhone": "+1-555-0124",
+    "currentRoom": {
+      "id": "room-110",
+      "number": "110",
+      "hostelId": "hostel-003",
+      "hostelName": "Oakwood Residence",
+      "floor": 1,
+      "type": "Single",
+      "amenities": ["WiFi", "Private Bathroom", "Study Desk"]
+    },
+    "desiredRoom": {
+      "id": "room-220",
+      "number": "220",
+      "hostelId": "hostel-001",
+      "hostelName": "Sunrise Hostel",
+      "floor": 2,
+      "type": "Double",
+      "amenities": ["WiFi", "Study Desk", "Shared Bathroom"]
+    },
+    "reason": "Want to share room with friend",
+    "status": "approved",
+    "priority": "medium",
+    "createdAt": "2024-01-10T14:20:00Z",
+    "updatedAt": "2024-01-14T09:15:00Z",
+    "targetDate": "2024-01-25T00:00:00Z",
+    "isFlexible": false,
+    "additionalNotes": "Friend already confirmed for room 220"
+  },
+  {
+    "id": "swap-003",
+    "requesterId": "user-103",
+    "requesterName": "Emily Rodriguez",
+    "requesterEmail": "emily.rodriguez@university.edu",
+    "requesterPhone": "+1-555-0125",
+    "currentRoom": {
+      "id": "room-405",
+      "number": "405",
+      "hostelId": "hostel-002",
+      "hostelName": "Green Valley Hostel",
+      "floor": 4,
+      "type": "Triple",
+      "amenities": ["WiFi", "Shared Bathroom", "Study Area"]
+    },
+    "desiredRoom": {
+      "id": "room-130",
+      "number": "130",
+      "hostelId": "hostel-003",
+      "hostelName": "Oakwood Residence",
+      "floor": 1,
+      "type": "Double",
+      "amenities": ["WiFi", "Private Bathroom", "Study Desk"]
+    },
+    "reason": "Current room is too crowded, need quieter environment",
+    "status": "rejected",
+    "priority": "low",
+    "createdAt": "2024-01-05T16:45:00Z",
+    "updatedAt": "2024-01-12T11:30:00Z",
+    "targetDate": "2024-01-30T00:00:00Z",
+    "isFlexible": true,
+    "additionalNotes": "Open to alternative room suggestions",
+    "rejectionReason": "No matching room available at this time"
+  },
+  {
+    "id": "swap-004",
+    "requesterId": "user-104",
+    "requesterName": "David Kim",
+    "requesterEmail": "david.kim@university.edu",
+    "requesterPhone": "+1-555-0126",
+    "currentRoom": {
+      "id": "room-325",
+      "number": "325",
+      "hostelId": "hostel-004",
+      "hostelName": "Maple Heights",
+      "floor": 3,
+      "type": "Double",
+      "amenities": ["WiFi", "Shared Bathroom", "Study Desk"]
+    },
+    "desiredRoom": {
+      "id": "room-150",
+      "number": "150",
+      "hostelId": "hostel-001",
+      "hostelName": "Sunrise Hostel",
+      "floor": 1,
+      "type": "Single",
+      "amenities": ["WiFi", "Private Bathroom", "Study Desk"]
+    },
+    "reason": "Medical reasons - need private space",
+    "status": "processing",
+    "priority": "urgent",
+    "createdAt": "2024-01-18T08:00:00Z",
+    "updatedAt": "2024-01-19T13:20:00Z",
+    "targetDate": "2024-01-22T00:00:00Z",
+    "isFlexible": false,
+    "additionalNotes": "Medical documentation provided",
+    "medicalPriority": true
+  },
+  {
+    "id": "swap-005",
+    "requesterId": "user-105",
+    "requesterName": "Jessica Williams",
+    "requesterEmail": "jessica.williams@university.edu",
+    "requesterPhone": "+1-555-0127",
+    "currentRoom": {
+      "id": "room-240",
+      "number": "240",
+      "hostelId": "hostel-005",
+      "hostelName": "Cedar Lodge",
+      "floor": 2,
+      "type": "Single",
+      "amenities": ["WiFi", "Private Bathroom", "Study Desk"]
+    },
+    "desiredRoom": {
+      "id": "room-310",
+      "number": "310",
+      "hostelId": "hostel-002",
+      "hostelName": "Green Valley Hostel",
+      "floor": 3,
+      "type": "Double",
+      "amenities": ["WiFi", "Shared Bathroom", "Study Area"]
+    },
+    "reason": "Want to room with specific person",
+    "status": "pending",
+    "priority": "medium",
+    "createdAt": "2024-01-20T12:15:00Z",
+    "updatedAt": "2024-01-20T12:15:00Z",
+    "targetDate": "2024-02-05T00:00:00Z",
+    "isFlexible": true,
+    "additionalNotes": "Roommate preference: Maria Santos (user-106)"
+  }
+]

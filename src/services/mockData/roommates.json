@@ -1,0 +1,326 @@
+[
+  {
+    "id": "rm-001",
+    "userId": "user-201",
+    "name": "Alex Thompson",
+    "email": "alex.thompson@university.edu",
+    "phone": "+1-555-0201",
+    "profileImage": "/images/profiles/alex.jpg",
+    "age": 20,
+    "gender": "male",
+    "major": "Computer Science",
+    "year": "sophomore",
+    "currentRoom": {
+      "id": "room-180",
+      "number": "180",
+      "hostelId": "hostel-001",
+      "hostelName": "Sunrise Hostel",
+      "type": "Single"
+    },
+    "lookingFor": "roommate",
+    "preferences": {
+      "roomType": "double",
+      "hostelPreference": ["hostel-001", "hostel-002"],
+      "studyHabits": "quiet",
+      "sleepSchedule": "early",
+      "cleanliness": "neat",
+      "socialLevel": "moderate",
+      "smokingTolerance": "non-smoker",
+      "petFriendly": false,
+      "budgetRange": {
+        "min": 800,
+        "max": 1200
+      }
+    },
+    "lifestyle": {
+      "hobbies": ["reading", "gaming", "programming"],
+      "musicPreference": ["indie", "electronic"],
+      "exerciseFrequency": "regular",
+      "cookingSkills": "basic",
+      "partyFrequency": "rare"
+    },
+    "compatibility": {
+      "overallScore": 85,
+      "studyCompatibility": 90,
+      "lifestyleCompatibility": 80,
+      "scheduleCompatibility": 85
+    },
+    "bio": "CS student looking for a quiet roommate who respects study time. Love coding and gaming in free time. Clean and organized.",
+    "isActive": true,
+    "joinedDate": "2024-01-10T00:00:00Z",
+    "lastActive": "2024-01-20T15:30:00Z",
+    "verified": true,
+    "responseRate": 95,
+    "languages": ["English", "Spanish"],
+    "roommatePreviously": true
+  },
+  {
+    "id": "rm-002",
+    "userId": "user-202",
+    "name": "Priya Patel",
+    "email": "priya.patel@university.edu",
+    "phone": "+1-555-0202",
+    "profileImage": "/images/profiles/priya.jpg",
+    "age": 21,
+    "gender": "female",
+    "major": "Biology",
+    "year": "junior",
+    "currentRoom": {
+      "id": "room-205",
+      "number": "205",
+      "hostelId": "hostel-002",
+      "hostelName": "Green Valley Hostel",
+      "type": "Double"
+    },
+    "lookingFor": "roommate",
+    "preferences": {
+      "roomType": "double",
+      "hostelPreference": ["hostel-002", "hostel-003"],
+      "studyHabits": "moderate",
+      "sleepSchedule": "moderate",
+      "cleanliness": "very neat",
+      "socialLevel": "high",
+      "smokingTolerance": "non-smoker",
+      "petFriendly": true,
+      "budgetRange": {
+        "min": 900,
+        "max": 1400
+      }
+    },
+    "lifestyle": {
+      "hobbies": ["yoga", "cooking", "photography"],
+      "musicPreference": ["pop", "classical"],
+      "exerciseFrequency": "daily",
+      "cookingSkills": "excellent",
+      "partyFrequency": "occasional"
+    },
+    "compatibility": {
+      "overallScore": 92,
+      "studyCompatibility": 88,
+      "lifestyleCompatibility": 95,
+      "scheduleCompatibility": 90
+    },
+    "bio": "Biology major who loves cooking and staying active. Looking for a friendly roommate who appreciates a clean, organized space.",
+    "isActive": true,
+    "joinedDate": "2024-01-08T00:00:00Z",
+    "lastActive": "2024-01-20T18:45:00Z",
+    "verified": true,
+    "responseRate": 88,
+    "languages": ["English", "Hindi", "Gujarati"],
+    "roommatePreviously": true
+  },
+  {
+    "id": "rm-003",
+    "userId": "user-203",
+    "name": "Marcus Johnson",
+    "email": "marcus.johnson@university.edu",
+    "phone": "+1-555-0203",
+    "profileImage": "/images/profiles/marcus.jpg",
+    "age": 19,
+    "gender": "male",
+    "major": "Business Administration",
+    "year": "freshman",
+    "currentRoom": {
+      "id": "room-315",
+      "number": "315",
+      "hostelId": "hostel-003",
+      "hostelName": "Oakwood Residence",
+      "type": "Triple"
+    },
+    "lookingFor": "room-change",
+    "preferences": {
+      "roomType": "double",
+      "hostelPreference": ["hostel-001", "hostel-004"],
+      "studyHabits": "social",
+      "sleepSchedule": "late",
+      "cleanliness": "moderate",
+      "socialLevel": "very high",
+      "smokingTolerance": "tolerant",
+      "petFriendly": true,
+      "budgetRange": {
+        "min": 700,
+        "max": 1000
+      }
+    },
+    "lifestyle": {
+      "hobbies": ["basketball", "music", "socializing"],
+      "musicPreference": ["hip-hop", "r&b"],
+      "exerciseFrequency": "regular",
+      "cookingSkills": "none",
+      "partyFrequency": "frequent"
+    },
+    "compatibility": {
+      "overallScore": 75,
+      "studyCompatibility": 70,
+      "lifestyleCompatibility": 85,
+      "scheduleCompatibility": 70
+    },
+    "bio": "Outgoing business student who loves meeting new people. Looking for someone who enjoys the social side of college life.",
+    "isActive": true,
+    "joinedDate": "2024-01-15T00:00:00Z",
+    "lastActive": "2024-01-20T22:15:00Z",
+    "verified": false,
+    "responseRate": 76,
+    "languages": ["English"],
+    "roommatePreviously": false
+  },
+  {
+    "id": "rm-004",
+    "userId": "user-204",
+    "name": "Emma Zhang",
+    "email": "emma.zhang@university.edu",
+    "phone": "+1-555-0204",
+    "profileImage": "/images/profiles/emma.jpg",
+    "age": 22,
+    "gender": "female",
+    "major": "Psychology",
+    "year": "senior",
+    "currentRoom": {
+      "id": "room-120",
+      "number": "120",
+      "hostelId": "hostel-004",
+      "hostelName": "Maple Heights",
+      "type": "Single"
+    },
+    "lookingFor": "roommate",
+    "preferences": {
+      "roomType": "double",
+      "hostelPreference": ["hostel-001", "hostel-002", "hostel-004"],
+      "studyHabits": "very quiet",
+      "sleepSchedule": "early",
+      "cleanliness": "very neat",
+      "socialLevel": "low",
+      "smokingTolerance": "non-smoker",
+      "petFriendly": false,
+      "budgetRange": {
+        "min": 1000,
+        "max": 1500
+      }
+    },
+    "lifestyle": {
+      "hobbies": ["reading", "meditation", "painting"],
+      "musicPreference": ["classical", "ambient"],
+      "exerciseFrequency": "moderate",
+      "cookingSkills": "good",
+      "partyFrequency": "never"
+    },
+    "compatibility": {
+      "overallScore": 88,
+      "studyCompatibility": 95,
+      "lifestyleCompatibility": 85,
+      "scheduleCompatibility": 85
+    },
+    "bio": "Psychology senior focused on academics. Looking for a quiet, respectful roommate who values peace and organization.",
+    "isActive": true,
+    "joinedDate": "2024-01-05T00:00:00Z",
+    "lastActive": "2024-01-20T14:20:00Z",
+    "verified": true,
+    "responseRate": 92,
+    "languages": ["English", "Mandarin"],
+    "roommatePreviously": true
+  },
+  {
+    "id": "rm-005",
+    "userId": "user-205",
+    "name": "Carlos Rodriguez",
+    "email": "carlos.rodriguez@university.edu",
+    "phone": "+1-555-0205",
+    "profileImage": "/images/profiles/carlos.jpg",
+    "age": 20,
+    "gender": "male",
+    "major": "Engineering",
+    "year": "sophomore",
+    "currentRoom": {
+      "id": "room-280",
+      "number": "280",
+      "hostelId": "hostel-005",
+      "hostelName": "Cedar Lodge",
+      "type": "Double"
+    },
+    "lookingFor": "room-change",
+    "preferences": {
+      "roomType": "single",
+      "hostelPreference": ["hostel-001", "hostel-003"],
+      "studyHabits": "moderate",
+      "sleepSchedule": "moderate",
+      "cleanliness": "neat",
+      "socialLevel": "moderate",
+      "smokingTolerance": "non-smoker",
+      "petFriendly": true,
+      "budgetRange": {
+        "min": 800,
+        "max": 1300
+      }
+    },
+    "lifestyle": {
+      "hobbies": ["soccer", "video games", "movies"],
+      "musicPreference": ["latin", "pop"],
+      "exerciseFrequency": "regular",
+      "cookingSkills": "basic",
+      "partyFrequency": "moderate"
+    },
+    "compatibility": {
+      "overallScore": 80,
+      "studyCompatibility": 82,
+      "lifestyleCompatibility": 78,
+      "scheduleCompatibility": 80
+    },
+    "bio": "Engineering student who balances study and fun. Looking for someone who can be serious about academics but also knows how to relax.",
+    "isActive": true,
+    "joinedDate": "2024-01-12T00:00:00Z",
+    "lastActive": "2024-01-20T19:30:00Z",
+    "verified": true,
+    "responseRate": 84,
+    "languages": ["English", "Spanish"],
+    "roommatePreviously": true
+  },
+  {
+    "id": "rm-006",
+    "userId": "user-206",
+    "name": "Sophie Miller",
+    "email": "sophie.miller@university.edu",
+    "phone": "+1-555-0206",
+    "profileImage": "/images/profiles/sophie.jpg",
+    "age": 21,
+    "gender": "female",
+    "major": "Art History",
+    "year": "junior",
+    "currentRoom": null,
+    "lookingFor": "room",
+    "preferences": {
+      "roomType": "any",
+      "hostelPreference": ["hostel-002", "hostel-003", "hostel-004"],
+      "studyHabits": "flexible",
+      "sleepSchedule": "flexible",
+      "cleanliness": "moderate",
+      "socialLevel": "high",
+      "smokingTolerance": "tolerant",
+      "petFriendly": true,
+      "budgetRange": {
+        "min": 600,
+        "max": 1100
+      }
+    },
+    "lifestyle": {
+      "hobbies": ["art", "theater", "traveling"],
+      "musicPreference": ["indie", "folk"],
+      "exerciseFrequency": "low",
+      "cookingSkills": "good",
+      "partyFrequency": "frequent"
+    },
+    "compatibility": {
+      "overallScore": 78,
+      "studyCompatibility": 75,
+      "lifestyleCompatibility": 85,
+      "scheduleCompatibility": 75
+    },
+    "bio": "Art History major who loves creativity and new experiences. Very adaptable and looking for any available room or roommate situation.",
+    "isActive": true,
+    "joinedDate": "2024-01-18T00:00:00Z",
+    "lastActive": "2024-01-20T20:45:00Z",
+    "verified": false,
+    "responseRate": 70,
+    "languages": ["English", "French"],
+    "roommatePreviously": false
+  }
+]
