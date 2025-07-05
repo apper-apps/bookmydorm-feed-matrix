@@ -1,0 +1,177 @@
+[
+  {
+    "Id": 1,
+    "hostelId": 1,
+    "userId": 1,
+    "userName": "Priya Sharma",
+    "userAvatar": "/api/placeholder/40/40",
+    "ratings": {
+      "roomComfort": 4,
+      "roomSize": 4,
+      "cleanliness": 5,
+      "noiseLevel": 3,
+      "wifiSpeed": 5,
+      "messFood": 4,
+      "security": 5,
+      "location": 5
+    },
+    "text": "Great hostel with excellent facilities! The WiFi is super fast and the mess food is actually quite good. The only downside is that it can get a bit noisy during exam periods, but overall I'm very satisfied with my stay here.",
+    "images": [
+      "/api/placeholder/300/200",
+      "/api/placeholder/300/200"
+    ],
+    "upvotes": 23,
+    "downvotes": 2,
+    "sentiment": "positive",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "hostelId": 1,
+    "userId": 2,
+    "userName": "Rahul Kumar",
+    "userAvatar": "/api/placeholder/40/40",
+    "ratings": {
+      "roomComfort": 5,
+      "roomSize": 3,
+      "cleanliness": 4,
+      "noiseLevel": 4,
+      "wifiSpeed": 4,
+      "messFood": 3,
+      "security": 5,
+      "location": 4
+    },
+    "text": "The location is perfect and security is top-notch. Room comfort is excellent but could be a bit more spacious. The mess food is okay but could be improved. Overall, a good place to stay.",
+    "images": [],
+    "upvotes": 18,
+    "downvotes": 1,
+    "sentiment": "positive",
+    "createdAt": "2024-01-10T14:45:00Z"
+  },
+  {
+    "Id": 3,
+    "hostelId": 2,
+    "userId": 3,
+    "userName": "Anita Patel",
+    "userAvatar": "/api/placeholder/40/40",
+    "ratings": {
+      "roomComfort": 3,
+      "roomSize": 4,
+      "cleanliness": 4,
+      "noiseLevel": 4,
+      "wifiSpeed": 4,
+      "messFood": 4,
+      "security": 4,
+      "location": 5
+    },
+    "text": "Budget-friendly option with decent facilities. The location is excellent for accessing the city center. Rooms are clean and spacious enough. No AC but fans work well. Good value for money.",
+    "images": [
+      "/api/placeholder/300/200"
+    ],
+    "upvotes": 15,
+    "downvotes": 3,
+    "sentiment": "neutral",
+    "createdAt": "2024-01-08T09:20:00Z"
+  },
+  {
+    "Id": 4,
+    "hostelId": 3,
+    "userId": 4,
+    "userName": "Vikram Singh",
+    "userAvatar": "/api/placeholder/40/40",
+    "ratings": {
+      "roomComfort": 5,
+      "roomSize": 5,
+      "cleanliness": 5,
+      "noiseLevel": 5,
+      "wifiSpeed": 5,
+      "messFood": 5,
+      "security": 5,
+      "location": 4
+    },
+    "text": "Absolutely amazing hostel! Everything is perfect - from the spacious rooms to the excellent food. The study facilities are top-notch and the environment is very conducive to learning. Highly recommended!",
+    "images": [
+      "/api/placeholder/300/200",
+      "/api/placeholder/300/200",
+      "/api/placeholder/300/200"
+    ],
+    "upvotes": 45,
+    "downvotes": 0,
+    "sentiment": "positive",
+    "createdAt": "2024-01-05T16:30:00Z"
+  },
+  {
+    "Id": 5,
+    "hostelId": 4,
+    "userId": 5,
+    "userName": "Sneha Gupta",
+    "userAvatar": "/api/placeholder/40/40",
+    "ratings": {
+      "roomComfort": 3,
+      "roomSize": 3,
+      "cleanliness": 4,
+      "noiseLevel": 3,
+      "wifiSpeed": 3,
+      "messFood": 3,
+      "security": 4,
+      "location": 4
+    },
+    "text": "It's an okay place for the price. The location is good for transportation but the facilities are just basic. WiFi can be slow sometimes and the mess food is average. Good for budget-conscious students.",
+    "images": [],
+    "upvotes": 8,
+    "downvotes": 4,
+    "sentiment": "neutral",
+    "createdAt": "2024-01-02T11:15:00Z"
+  },
+  {
+    "Id": 6,
+    "hostelId": 5,
+    "userId": 6,
+    "userName": "Arjun Mehta",
+    "userAvatar": "/api/placeholder/40/40",
+    "ratings": {
+      "roomComfort": 4,
+      "roomSize": 4,
+      "cleanliness": 5,
+      "noiseLevel": 4,
+      "wifiSpeed": 4,
+      "messFood": 4,
+      "security": 5,
+      "location": 5
+    },
+    "text": "Great location near the market makes it very convenient for shopping and daily needs. The hostel is well-maintained and clean. Staff is friendly and helpful. Good recreational facilities too!",
+    "images": [
+      "/api/placeholder/300/200"
+    ],
+    "upvotes": 21,
+    "downvotes": 1,
+    "sentiment": "positive",
+    "createdAt": "2023-12-28T13:45:00Z"
+  },
+  {
+    "Id": 7,
+    "hostelId": 6,
+    "userId": 7,
+    "userName": "Meera Joshi",
+    "userAvatar": "/api/placeholder/40/40",
+    "ratings": {
+      "roomComfort": 5,
+      "roomSize": 4,
+      "cleanliness": 5,
+      "noiseLevel": 5,
+      "wifiSpeed": 5,
+      "messFood": 4,
+      "security": 5,
+      "location": 5
+    },
+    "text": "Perfect for serious students! The location near the library is ideal for studying. The hostel maintains a quiet environment which is great for concentration. Excellent study rooms and WiFi connectivity.",
+    "images": [
+      "/api/placeholder/300/200",
+      "/api/placeholder/300/200"
+    ],
+    "upvotes": 32,
+    "downvotes": 0,
+    "sentiment": "positive",
+    "createdAt": "2023-12-25T08:30:00Z"
+  }
+]

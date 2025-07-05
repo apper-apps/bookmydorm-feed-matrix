@@ -1,0 +1,179 @@
+[
+  {
+    "Id": 1,
+    "name": "Sunrise Hostel",
+    "location": "Near Main Gate",
+    "overallRating": 4.5,
+    "totalReviews": 156,
+    "roomTypes": ["Single", "Double", "Triple"],
+    "priceRange": {
+      "min": 8000,
+      "max": 15000
+    },
+    "availability": 8,
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "mess": true,
+      "security": true,
+      "parking": true,
+      "studyRoom": true,
+      "recreation": false
+    },
+    "images": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ],
+    "description": "Modern hostel with excellent facilities and friendly environment. Perfect for students seeking comfort and convenience."
+  },
+  {
+    "Id": 2,
+    "name": "Green Valley Hostel",
+    "location": "City Center",
+    "overallRating": 4.2,
+    "totalReviews": 203,
+    "roomTypes": ["Single", "Double"],
+    "priceRange": {
+      "min": 6000,
+      "max": 12000
+    },
+    "availability": 3,
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "mess": true,
+      "security": true,
+      "parking": false,
+      "studyRoom": true,
+      "recreation": true
+    },
+    "images": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ],
+    "description": "Affordable hostel with good facilities and proximity to city center. Great for budget-conscious students."
+  },
+  {
+    "Id": 3,
+    "name": "University Heights",
+    "location": "Campus Area",
+    "overallRating": 4.8,
+    "totalReviews": 89,
+    "roomTypes": ["Single", "Double", "Triple", "Shared"],
+    "priceRange": {
+      "min": 10000,
+      "max": 20000
+    },
+    "availability": 12,
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "mess": true,
+      "security": true,
+      "parking": true,
+      "studyRoom": true,
+      "recreation": true
+    },
+    "images": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ],
+    "description": "Premium hostel with top-notch facilities and excellent service. Ideal for students who want the best experience."
+  },
+  {
+    "Id": 4,
+    "name": "Blue Sky Hostel",
+    "location": "Transport Hub",
+    "overallRating": 3.9,
+    "totalReviews": 134,
+    "roomTypes": ["Double", "Triple"],
+    "priceRange": {
+      "min": 5000,
+      "max": 9000
+    },
+    "availability": 0,
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "mess": true,
+      "security": true,
+      "parking": true,
+      "studyRoom": false,
+      "recreation": false
+    },
+    "images": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ],
+    "description": "Budget-friendly hostel with basic amenities. Good connectivity to various parts of the city."
+  },
+  {
+    "Id": 5,
+    "name": "Golden Crown Hostel",
+    "location": "Market Area",
+    "overallRating": 4.3,
+    "totalReviews": 178,
+    "roomTypes": ["Single", "Double"],
+    "priceRange": {
+      "min": 7000,
+      "max": 13000
+    },
+    "availability": 6,
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "mess": true,
+      "security": true,
+      "parking": false,
+      "studyRoom": true,
+      "recreation": true
+    },
+    "images": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ],
+    "description": "Well-located hostel near shopping areas with good facilities and reasonable prices."
+  },
+  {
+    "Id": 6,
+    "name": "Royal Palace Hostel",
+    "location": "Near Library",
+    "overallRating": 4.6,
+    "totalReviews": 112,
+    "roomTypes": ["Single", "Double", "Triple"],
+    "priceRange": {
+      "min": 9000,
+      "max": 16000
+    },
+    "availability": 4,
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "mess": true,
+      "security": true,
+      "parking": true,
+      "studyRoom": true,
+      "recreation": false
+    },
+    "images": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ],
+    "description": "Quiet hostel perfect for serious students, located near the main library with excellent study facilities."
+  }
+]
